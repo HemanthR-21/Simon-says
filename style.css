@@ -1,44 +1,46 @@
-body{
-    text-align: center;
+body {
+  text-align: center;
+  user-select: none;
+  cursor: default;
 }
 
-.btn{
-    height: 150px;
-    width: 150px;
-    border-radius: 20%;
-    border: 5px solid black;
-    margin: 1.5rem;
+.btn {
+  height: 150px;
+  width: 150px;
+  border-radius: 20%;
+  border: 5px solid black;
+  margin: 1.5rem;
 }
 
-.btn-container{
-    display: flex;
-    justify-content: center;
+.btn-container {
+  display: flex;
+  justify-content: center;
 }
 
-.red{
-    background-color: #d95980;
+.red {
+  background-color: #d95980;
 }
 
-.green{
-    background-color: #63aac0;
+.green {
+  background-color: #63aac0;
 }
 
-.purple{
-    background-color: #ed6bfc;
+.purple {
+  background-color: #ed6bfc;
 }
 
-.yellow{
-    background-color: #f99b45;
+.yellow {
+  background-color: #f99b45;
 }
 
-.flash{
-    background-color: white;
+.flash {
+  background-color: white;
 }
 
-.userflash{
-    background-color: rgb(182, 255, 73);
+.userflash {
+  background-color: rgb(182, 255, 73);
 }
 
-.high{
-    text-align: end;
+.high {
+  text-align: end;
 }
